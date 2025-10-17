@@ -1,0 +1,13 @@
+/*
+ * API_GPIO.h
+ *
+ *  Created on: Oct 17, 2025
+ *      Author: Zephyr
+ */
+
+#ifndef API_INC_API_GPIO_H_
+#define API_INC_API_GPIO_H_
+
+
+
+#endif /* API_INC_API_GPIO_H_ */

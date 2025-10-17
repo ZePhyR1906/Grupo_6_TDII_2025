@@ -61,8 +61,8 @@ all: main-build
 main-build: App_1_2_GRUPO_6_2025.elf secondary-outputs
 
 # Tool invocations
-App_1_2_GRUPO_6_2025.elf App_1_2_GRUPO_6_2025.map: $(OBJS) $(USER_OBJS) C:\Users\ZePhyR\STM32CubeIDE\workspace_1.19.0\App_1_2_GRUPO_6_2025\STM32F413ZHTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "App_1_2_GRUPO_6_2025.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ZePhyR\STM32CubeIDE\workspace_1.19.0\App_1_2_GRUPO_6_2025\STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_1_2_GRUPO_6_2025.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+App_1_2_GRUPO_6_2025.elf App_1_2_GRUPO_6_2025.map: $(OBJS) $(USER_OBJS) F:\Facultad\Tecnicas\ Digitales\ 2\2025\workspace\AFP_2_GRUPO_6_TDII_2025\App_1_2_GRUPO_6_2025\STM32F413ZHTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "App_1_2_GRUPO_6_2025.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"F:\Facultad\Tecnicas Digitales 2\2025\workspace\AFP_2_GRUPO_6_TDII_2025\App_1_2_GRUPO_6_2025\STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_1_2_GRUPO_6_2025.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
