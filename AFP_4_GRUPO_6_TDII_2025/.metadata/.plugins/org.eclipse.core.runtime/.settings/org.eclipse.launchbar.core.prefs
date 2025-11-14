@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_1_2_GRUPO_6_2025,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_1_3_GRUPO_6_2025,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_1_4_GRUPO_6_2025,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_1_1_GRUPO_6_2025 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_1_1_GRUPO_6_2025\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_1_1_GRUPO_6_2025\ Debug/activeLaunchTarget=null\:---
